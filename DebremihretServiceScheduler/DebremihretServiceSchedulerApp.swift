@@ -13,7 +13,7 @@ struct DebremihretServiceSchedulerApp: App {
                 .onAppear {
                     BackgroundReminderManager.shared.configure(store: store)
                 }
-                .onChange(of: scenePhase) { _, newPhase in
+                .onChange(of: scenePhase) { newPhase in
                     if newPhase == .background {
                         BackgroundReminderManager.shared.scheduleNextReminder(from: store.data.reminders)
                     }

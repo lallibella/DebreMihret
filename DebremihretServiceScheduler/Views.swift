@@ -26,7 +26,7 @@ struct LockGateView: View {
             }
         }
         .environment(\.locale, store.language.locale)
-        .onChange(of: scenePhase) { _, newPhase in
+        .onChange(of: scenePhase) { newPhase in
             switch newPhase {
             case .background:
                 if store.data.settings.appLockEnabled {
@@ -76,7 +76,7 @@ struct LockGateView: View {
                     .textContentType(.oneTimeCode)
                     .keyboardType(.numberPad)
                     .textFieldStyle(.roundedBorder)
-                    .onChange(of: pin) { _, newValue in
+                    .onChange(of: pin) { newValue in
                         pin = String(newValue.filter(\.isNumber).prefix(4))
                     }
 
@@ -165,7 +165,7 @@ struct SecuritySetupView: View {
                     .textContentType(.oneTimeCode)
                     .keyboardType(.numberPad)
                     .textFieldStyle(.roundedBorder)
-                    .onChange(of: pin) { _, newValue in
+                    .onChange(of: pin) { newValue in
                         pin = String(newValue.filter(\.isNumber).prefix(4))
                     }
 
@@ -173,7 +173,7 @@ struct SecuritySetupView: View {
                     .textContentType(.oneTimeCode)
                     .keyboardType(.numberPad)
                     .textFieldStyle(.roundedBorder)
-                    .onChange(of: confirmPIN) { _, newValue in
+                    .onChange(of: confirmPIN) { newValue in
                         confirmPIN = String(newValue.filter(\.isNumber).prefix(4))
                     }
             }
