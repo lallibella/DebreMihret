@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct ChurchServiceSchedulerApp: App {
+struct DebremihretServiceSchedulerApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @StateObject private var store = SchedulerStore()
     @Environment(\.scenePhase) private var scenePhase

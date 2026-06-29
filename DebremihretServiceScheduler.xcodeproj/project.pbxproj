@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		000000000000000000000101 /* ChurchServiceSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000201 /* ChurchServiceSchedulerApp.swift */; };
+		000000000000000000000101 /* DebremihretServiceSchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000201 /* DebremihretServiceSchedulerApp.swift */; };
 		000000000000000000000102 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000202 /* Models.swift */; };
 		000000000000000000000103 /* SecureStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000203 /* SecureStorage.swift */; };
 		000000000000000000000104 /* SchedulerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000204 /* SchedulerStore.swift */; };
@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000000000000000000000201 /* ChurchServiceSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChurchServiceSchedulerApp.swift; sourceTree = "<group>"; };
+		000000000000000000000201 /* DebremihretServiceSchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebremihretServiceSchedulerApp.swift; sourceTree = "<group>"; };
 		000000000000000000000202 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		000000000000000000000203 /* SecureStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStorage.swift; sourceTree = "<group>"; };
 		000000000000000000000204 /* SchedulerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerStore.swift; sourceTree = "<group>"; };
@@ -32,7 +32,7 @@
 		000000000000000000000210 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 		000000000000000000000211 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		000000000000000000000212 /* am */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = am; path = am.lproj/Localizable.strings; sourceTree = "<group>"; };
-		000000000000000000000301 /* ChurchServiceScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChurchServiceScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000301 /* DebremihretServiceScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebremihretServiceScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,15 +49,15 @@
 		000000000000000000000501 = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000502 /* ChurchServiceScheduler */,
+				000000000000000000000502 /* DebremihretServiceScheduler */,
 				000000000000000000000503 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		000000000000000000000502 /* ChurchServiceScheduler */ = {
+		000000000000000000000502 /* DebremihretServiceScheduler */ = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000201 /* ChurchServiceSchedulerApp.swift */,
+				000000000000000000000201 /* DebremihretServiceSchedulerApp.swift */,
 				000000000000000000000202 /* Models.swift */,
 				000000000000000000000203 /* SecureStorage.swift */,
 				000000000000000000000204 /* SchedulerStore.swift */,
@@ -69,13 +69,13 @@
 				000000000000000000000213 /* Localizable.strings */,
 				000000000000000000000209 /* Resources/Info.plist */,
 			);
-			path = ChurchServiceScheduler;
+			path = DebremihretServiceScheduler;
 			sourceTree = "<group>";
 		};
 		000000000000000000000503 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				000000000000000000000301 /* ChurchServiceScheduler.app */,
+				000000000000000000000301 /* DebremihretServiceScheduler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,9 +83,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000000000000000000000601 /* ChurchServiceScheduler */ = {
+		000000000000000000000601 /* DebremihretServiceScheduler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000000000000000000000701 /* Build configuration list for PBXNativeTarget "ChurchServiceScheduler" */;
+			buildConfigurationList = 000000000000000000000701 /* Build configuration list for PBXNativeTarget "DebremihretServiceScheduler" */;
 			buildPhases = (
 				000000000000000000000801 /* Sources */,
 				000000000000000000000401 /* Frameworks */,
@@ -95,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = ChurchServiceScheduler;
-			productName = ChurchServiceScheduler;
-			productReference = 000000000000000000000301 /* ChurchServiceScheduler.app */;
+			name = DebremihretServiceScheduler;
+			productName = DebremihretServiceScheduler;
+			productReference = 000000000000000000000301 /* DebremihretServiceScheduler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 000000000000000000000702 /* Build configuration list for PBXProject "ChurchServiceScheduler" */;
+			buildConfigurationList = 000000000000000000000702 /* Build configuration list for PBXProject "DebremihretServiceScheduler" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				000000000000000000000601 /* ChurchServiceScheduler */,
+				000000000000000000000601 /* DebremihretServiceScheduler */,
 			);
 		};
 /* End PBXProject section */
@@ -151,7 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000000000000000000000101 /* ChurchServiceSchedulerApp.swift in Sources */,
+				000000000000000000000101 /* DebremihretServiceSchedulerApp.swift in Sources */,
 				000000000000000000000102 /* Models.swift in Sources */,
 				000000000000000000000103 /* SecureStorage.swift in Sources */,
 				000000000000000000000104 /* SchedulerStore.swift in Sources */,
@@ -302,7 +302,7 @@
 				DEVELOPMENT_TEAM = 8L78VWH4M3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = ChurchServiceScheduler/Resources/Info.plist;
+				INFOPLIST_FILE = DebremihretServiceScheduler/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Debre Mihret St Michael Church";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -329,7 +329,7 @@
 				DEVELOPMENT_TEAM = 8L78VWH4M3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = ChurchServiceScheduler/Resources/Info.plist;
+				INFOPLIST_FILE = DebremihretServiceScheduler/Resources/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Debre Mihret St Michael Church";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -348,7 +348,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000000000000000000000701 /* Build configuration list for PBXNativeTarget "ChurchServiceScheduler" */ = {
+		000000000000000000000701 /* Build configuration list for PBXNativeTarget "DebremihretServiceScheduler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				000000000000000000000A03 /* Debug */,
@@ -357,7 +357,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		000000000000000000000702 /* Build configuration list for PBXProject "ChurchServiceScheduler" */ = {
+		000000000000000000000702 /* Build configuration list for PBXProject "DebremihretServiceScheduler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				000000000000000000000A01 /* Debug */,

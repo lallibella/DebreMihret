@@ -98,7 +98,7 @@ struct EncryptedDataStore {
     private let decoder: JSONDecoder
     private var fileURL: URL {
         let directory = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-            .appendingPathComponent("ChurchServiceScheduler", isDirectory: true)
+            .appendingPathComponent("DebremihretServiceScheduler", isDirectory: true)
         return directory.appendingPathComponent("data.dmsdb")
     }
 
@@ -197,7 +197,7 @@ enum BackupCrypto {
     }
 
     private static func keyFromPassword(_ password: String, salt: Data) -> SymmetricKey {
-        var material = Data("ChurchServiceSchedulerBackup".utf8)
+        var material = Data("DebremihretServiceSchedulerBackup".utf8)
         material.append(salt)
         material.append(Data(password.utf8))
         let digest = SHA256.hash(data: material)

@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "000000000000000000000601"
-               BuildableName = "ChurchServiceScheduler.app"
-               BlueprintName = "ChurchServiceScheduler"
-               ReferencedContainer = "container:ChurchServiceScheduler.xcodeproj">
+               BuildableName = "DebremihretServiceScheduler.app"
+               BlueprintName = "DebremihretServiceScheduler"
+               ReferencedContainer = "container:DebremihretServiceScheduler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000000000000000000000601"
-            BuildableName = "ChurchServiceScheduler.app"
-            BlueprintName = "ChurchServiceScheduler"
-            ReferencedContainer = "container:ChurchServiceScheduler.xcodeproj">
+            BuildableName = "DebremihretServiceScheduler.app"
+            BlueprintName = "DebremihretServiceScheduler"
+            ReferencedContainer = "container:DebremihretServiceScheduler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000000000000000000000601"
-            BuildableName = "ChurchServiceScheduler.app"
-            BlueprintName = "ChurchServiceScheduler"
-            ReferencedContainer = "container:ChurchServiceScheduler.xcodeproj">
+            BuildableName = "DebremihretServiceScheduler.app"
+            BlueprintName = "DebremihretServiceScheduler"
+            ReferencedContainer = "container:DebremihretServiceScheduler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

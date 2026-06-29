@@ -27,8 +27,8 @@ This repository currently contains a native SwiftUI iOS app because this Mac has
 
 ## Run On iPhone
 
-1. Open `ChurchServiceScheduler.xcodeproj` in Xcode.
-2. Select the `ChurchServiceScheduler` scheme.
+1. Open `DebremihretServiceScheduler.xcodeproj` in Xcode.
+2. Select the `DebremihretServiceScheduler` scheme.
 3. Select your iPhone or an iPhone simulator.
 4. For a physical iPhone, set your Apple development team in the target Signing & Capabilities panel.
 5. Build and run.
@@ -36,10 +36,10 @@ This repository currently contains a native SwiftUI iOS app because this Mac has
 Command-line simulator build:
 
 ```sh
-xcodebuild -project ChurchServiceScheduler.xcodeproj \
-  -scheme ChurchServiceScheduler \
+xcodebuild -project DebremihretServiceScheduler.xcodeproj \
+  -scheme DebremihretServiceScheduler \
   -destination 'generic/platform=iOS Simulator' \
-  -derivedDataPath /private/tmp/ChurchServiceSchedulerDerived \
+  -derivedDataPath /private/tmp/DebremihretServiceSchedulerDerived \
   build CODE_SIGNING_ALLOWED=NO
 ```
 
